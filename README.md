@@ -2,6 +2,12 @@
 
 An automated system that tracks portfolio manager changes across multiple funds and sources.
 
+## 🚀 One-Click Deploy
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/lucasblake01-ux/fund-manager-monitor)
+
+Click the button above to deploy your own instance! No coding required.
+
 ## Features
 
 - **Dashboard** - Overview of funds, recent changes, and scraping status
