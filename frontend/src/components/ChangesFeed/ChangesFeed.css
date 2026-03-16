@@ -1,0 +1,91 @@
+.changes-feed {
+  padding: var(--spacing-lg);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feed-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.feed-filters {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: center;
+}
+
+.feed-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.change-card {
+  transition: transform var(--transition-fast);
+}
+
+.change-card:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-md);
+}
+
+.change-header {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.change-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--nb-secondary);
+  border-radius: 50%;
+}
+
+.change-info {
+  flex: 1;
+}
+
+.change-fund {
+  margin-bottom: var(--spacing-xs);
+}
+
+.change-details {
+  padding-left: 56px;
+}
+
+.change-source {
+  margin-top: var(--spacing-sm);
+}
+
+.change-source a {
+  color: var(--nb-primary);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: 14px;
+}
+
+.change-source a:hover {
+  text-decoration: underline;
+}
+
+.no-changes {
+  padding: var(--spacing-xl);
+  text-align: center;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}

@@ -1,0 +1,54 @@
+{
+  "funds": [
+    {
+      "name": "Jupiter European Growth Fund",
+      "description": "Actively managed European equity fund",
+      "tags": "Equity, Europe, Growth"
+    },
+    {
+      "name": "Fidelity Global Equity Fund",
+      "description": "Global equity fund investing across developed markets",
+      "tags": "Equity, Global, Large Cap"
+    },
+    {
+      "name": "M&G UK Income Distribution Fund",
+      "description": "UK equity income fund focusing on dividend yield",
+      "tags": "Equity, UK, Income"
+    },
+    {
+      "name": "BlackRock Continental European Income Fund",
+      "description": "European equity income fund",
+      "tags": "Equity, Europe, Income"
+    },
+    {
+      "name": "Schroders Asian Opportunities Fund",
+      "description": "Asian equity growth fund",
+      "tags": "Equity, Asia, Growth"
+    },
+    {
+      "name": "Baillie Gifford American Fund",
+      "description": "US equity growth fund",
+      "tags": "Equity, US, Growth"
+    },
+    {
+      "name": "Invesco UK Opportunities Fund",
+      "description": "UK mid-cap equity fund",
+      "tags": "Equity, UK, Mid Cap"
+    },
+    {
+      "name": "abrdn Global Emerging Markets Equity Fund",
+      "description": "Emerging markets equity fund",
+      "tags": "Equity, Emerging Markets"
+    },
+    {
+      "name": "T. Rowe Price US Blue Chip Equity Fund",
+      "description": "US large-cap equity fund",
+      "tags": "Equity, US, Large Cap"
+    },
+    {
+      "name": "Liontrust European Growth Fund",
+      "description": "European growth equity fund",
+      "tags": "Equity, Europe, Growth"
+    }
+  ]
+}

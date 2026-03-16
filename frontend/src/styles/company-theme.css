@@ -1,0 +1,95 @@
+/* Neuberger Berman Company Theme - DO NOT MODIFY COLORS */
+
+:root {
+  /* Primary Colors */
+  --nb-primary: #123a5f;
+  --nb-primary-dark: #0d2a45;
+  --nb-primary-light: #1a5080;
+
+  /* Secondary Colors */
+  --nb-secondary: #e8eef4;
+  --nb-secondary-dark: #d0d8e0;
+  --nb-accent: #2e7d32;
+
+  /* Text Colors */
+  --nb-text-primary: #1a1a1a;
+  --nb-text-secondary: #666666;
+  --nb-text-light: #ffffff;
+
+  /* Background Colors */
+  --nb-bg-main: #e8eef4;
+  --nb-bg-paper: #ffffff;
+  --nb-bg-header: #123a5f;
+
+  /* Border Colors */
+  --nb-border: #d0d8e0;
+  --nb-border-light: #e8eef4;
+
+  /* Status Colors */
+  --nb-success: #2e7d32;
+  --nb-warning: #f57c00;
+  --nb-error: #d32f2f;
+  --nb-info: #1976d2;
+
+  /* Layout Dimensions */
+  --header-height: 64px;
+  --topnav-height: 56px;
+  --sidemenu-width: 240px;
+  --sidemenu-collapsed: 60px;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.2);
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background-color: var(--nb-bg-main);
+  color: var(--nb-text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--nb-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--nb-border);
+  border-radius: var(--radius-sm);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--nb-primary);
+}

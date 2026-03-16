@@ -1,0 +1,23 @@
+.fund-list {
+  padding: var(--spacing-lg);
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.list-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: center;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
