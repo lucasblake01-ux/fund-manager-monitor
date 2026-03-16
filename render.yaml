@@ -21,7 +21,3 @@ services:
         value: 8
       - key: SCRAPING_SCHEDULE_MINUTE
         value: 0
-    disk:
-      name: fund-monitor-data
-      mountPath: /opt/render/project/src/backend
-      sizeGB: 1
